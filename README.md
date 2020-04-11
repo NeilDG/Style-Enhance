@@ -3,6 +3,7 @@
 This repository contains the code for the deep learning approach to image enhancement through image style transfer which takes an image from a low end smartphone and enhances it in the style of a higher end device.
 
 ## Sample Images
+TODO
 
 ## Setup
 
@@ -10,6 +11,7 @@ This repository contains the code for the deep learning approach to image enhanc
 2. Download the [mobile image pair dataset (MIPD)](https://drive.google.com/open?id=1CmDvlpZbZuoVQ8keSA-oIaZgVIo2ueI7) and extract it on the `images/` folder.
 
 ## Enhance Images
-
+TODO
 
 ## Train Model
+TODO
