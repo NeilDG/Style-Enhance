@@ -16,10 +16,15 @@ Run `test_model.ipynb` using Jupyter Notebook or Jupyter Lab.
 
 Parameters and their default values:
 `phone`: `Nova2i` - Input device
+
 `model`: `StyleEnhance` - Name of the model
+
 `iteration`: `27239` - Number of iterations for the trained model
+
 `gt`: `iPhone8` - Reference ground truth device
+
 `res`: `iPhone8_resize` - Resolution
+
 `resnet`: `16` - Number of residual blocks (The mobile implementation has 4 residual blocks by default)
 
 Alternatively you can run `test_model.ipynb` using runipy with the following command.
