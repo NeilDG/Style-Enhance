@@ -11,7 +11,11 @@ TO DO
 2. Download the [mobile image pair dataset (MIPD)](https://drive.google.com/open?id=1CmDvlpZbZuoVQ8keSA-oIaZgVIo2ueI7) and extract it on the `images/` folder.
 
 ## Enhance Images
-TO DO
+
+Run 'test_model.ipynb' using Jupyter Notebook or Jupyter Lab.
+
+Parameters and their default values:
+
 
 ## Train Model
-TO DO
+1. 
