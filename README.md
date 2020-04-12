@@ -18,9 +18,9 @@ Parameters and their default values:
 * `phone`: `Nova2i` - Input device
 * `model`: `StyleEnhance` - Name of the model
 * `iteration`: `27239` - Number of iterations for the trained model
-- `gt`: `iPhone8` - Reference ground truth device
-- `patch_size`: `iPhone8_resize` - Patch size. For full-sized images, the image would be divided into input patches on the `input_patches/` folder with the said size, separately enhanced on `merge_patches` folder then combined to produce the result.
-- `resnet`: `16` - Number of residual blocks (The mobile implementation has 4 residual blocks by default)
+* `gt`: `iPhone8` - Reference ground truth device
+* `patch_size`: `iPhone8_resize` - Patch size. For full-sized images, the image would be divided into input patches on the `input_patches/` folder with the said size, separately enhanced on `merge_patches` folder then combined to produce the result.
+* `resnet`: `16` - Number of residual blocks (The mobile implementation has 4 residual blocks by default)
 
 Alternatively you can run `test_model.ipynb` using runipy with the following command.
 ```bash
@@ -32,13 +32,13 @@ The results could be viewed on the `results/` folder.
 Run `train_model.ipynb` using Jupyter Notebook or Jupyter Lab.
 
 Parameters and their default values:
-- `source`: `Nova2i` - Input device
-- `target`: `iPhone8` - Reference ground truth device
-- `model`: `StyleEnhance` - Name of the model
-- `batch_size`: `16` - Number of epochs to run
-- `load_step`: `1000` - Number of batches to load in the memory. Set to `-1` to load the entire training dataset.
-- `epochs`: `10` - Number of epochs to run
-- `resnet`: `16` - Number of residual blocks (The mobile implementation has 4 residual blocks by default)
+* `source`: `Nova2i` - Input device
+* `target`: `iPhone8` - Reference ground truth device
+* `model`: `StyleEnhance` - Name of the model
+* `batch_size`: `16` - Number of epochs to run
+* `load_step`: `1000` - Number of batches to load in the memory. Set to `-1` to load the entire training dataset.
+* `epochs`: `10` - Number of epochs to run
+* `resnet`: `16` - Number of residual blocks (The mobile implementation has 4 residual blocks by default)
 
 Alternatively you can run `train_model.ipynb` using runipy with the following command.
 ```bash
