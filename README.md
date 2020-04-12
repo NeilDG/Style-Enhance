@@ -19,14 +19,14 @@ Parameters and their default values:
 * `model`: `StyleEnhance` - Name of the model
 * `iteration`: `27239` - Number of iterations for the trained model
 - `gt`: `iPhone8` - Reference ground truth device
-- `res`: `iPhone8_resize` - Resolution
+- `patch_size`: `iPhone8_resize` - Patch size. For full-sized images, the image would be divided into input patches on the `input_patches/` folder with the said size, separately enhanced on `merge_patches folder` then combined to produce the result.
 - `resnet`: `16` - Number of residual blocks (The mobile implementation has 4 residual blocks by default)
 
 Alternatively you can run `test_model.ipynb` using runipy with the following command.
 ```bash
 runipy test_model.ipynb
 ```
-
+The results could be viewed on the `results/` folder.
 
 ## Train Model
 Run `train_model.ipynb` using Jupyter Notebook or Jupyter Lab.
