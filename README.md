@@ -37,8 +37,8 @@ Parameters and their default values:
 - `model`: `StyleEnhance` - Name of the model
 - `batch_size`: `16` - Number of epochs to run
 - `load_step`: `1000` - Number of batches to load in the memory. Set to `-1` to load the entire training dataset.
-`epochs`: `10` - Number of epochs to run
-`resnet`: `16` - Number of residual blocks (The mobile implementation has 4 residual blocks by default)
+- `epochs`: `10` - Number of epochs to run
+- `resnet`: `16` - Number of residual blocks (The mobile implementation has 4 residual blocks by default)
 
 Alternatively you can run `train_model.ipynb` using runipy with the following command.
 ```bash
