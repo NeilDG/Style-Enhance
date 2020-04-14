@@ -3,7 +3,9 @@
 This repository contains the code for the deep learning approach to image enhancement through image style transfer which takes an image from a low end smartphone and enhances it in the style of a higher end device.
 
 ## Sample Images
-TO DO
+<div align="center">
+	<img src="figures/results.jpg" width="80%" height="10%"/>
+</div>
 
 ## Setup
 
