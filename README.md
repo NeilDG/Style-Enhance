@@ -1,6 +1,6 @@
-# Mobile Image Enhancement through Image Style Transfer
+# Mobile Image Enhancement through Image Property Transfer
  
-This repository contains the code for the deep learning approach to image enhancement through image style transfer which takes an image from a low end smartphone and enhances it in the style of a higher end device.
+This repository contains the code for the deep learning approach to image enhancement through image property transfer which takes an image from a low end smartphone and enhances it through replicating the properties of images from a higher end device.
 
 ## Sample Images
 <div align="center">
